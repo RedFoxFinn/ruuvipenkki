@@ -15,15 +15,23 @@ Tech stack revision
 
 ## Tech stack
 
-MERN + GraphQL + ??
+Node + Express
+
+Mongoose + MongoDB Apollo
+
+GraphQL + Apollo Server Express
+
+React + Redux + Redux-Saga
 
 ## Features
 
-Nodejs + Express backend
+Application backend
 
-MongoDB Atlas database
+Application frontend
 
-React frontend
+Cloud database
+
+(API)
 
 ## Usage
 
