@@ -5,6 +5,8 @@ const http = require('http');
 const path = require('path');
 const parser = require('body-parser');
 
+const toolbox = require('./tools/toolbox');
+
 ruuvipenkki.use(parser.json());
 ruuvipenkki.use(parser.urlencoded({extended=false}));
 
@@ -14,7 +16,7 @@ ruuvipenkki.route('/')
   });
   /*
   .get((req, res) => {
-    ruuvipenkki.use(express.static('build'));
+    ruuvipenkki.use(express.static('build'));}
     res.sendFile(path.join(__dirname, '/build/index.html'));
   });
   */
