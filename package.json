@@ -1,6 +1,6 @@
 {
   "name": "ruuvipenkki_frontend",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -16,14 +16,14 @@
     "typescript": "^4.3.2",
     "web-vitals": "^0.2.4"
   },
-	"husky": {
-		"hooks": {
-			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-		}
-	},
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "scripts": {
-		"cm": "git-cz",
-		"release": "standard-version",
+    "cm": "git-cz",
+    "release": "standard-version",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
